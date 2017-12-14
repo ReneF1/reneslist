@@ -12,15 +12,9 @@ class PrimaryList extends Component {
                         <ListItemIcon>
                             <p>1</p>
                         </ListItemIcon>
-                        <ListItemText primary="Pferde" />
+                        <ListItemText primary={this.props.storageValue} />
                     </ListItem>
                     <Divider />
-                    <ListItem button>
-                        <ListItemIcon>
-                            <p>2</p>
-                        </ListItemIcon>
-                        <ListItemText primary="Coin" />
-                    </ListItem>
                 </List>
             </div>
 
